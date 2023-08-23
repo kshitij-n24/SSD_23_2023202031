@@ -1,0 +1,1 @@
+SELECT dish_name, price FROM menu WHERE food_type="non-veg" AND price > (SELECT MAX(price) FROM menu WHERE food_type="veg");

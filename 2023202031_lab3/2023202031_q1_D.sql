@@ -1,0 +1,1 @@
+SELECT food_type, AVG(price) AS avg_food_type FROM menu GROUP BY food_type ORDER BY AVG(price) DESC;

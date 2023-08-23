@@ -1,0 +1,1 @@
+SELECT b.genre, COUNT(a.user_id) AS total_user_count FROM issued_users AS a, books AS b WHERE a.book_id = b.book_id GROUP BY b.genre;
