@@ -1,0 +1,29 @@
+#corrPassMes {
+    color: green;
+}
+
+#wrongPassMes {
+    color: red;
+}
+
+#corrTeamMes {
+    color: green;
+}
+
+#wrongTeamMes {
+    color: red;
+}
+
+#corrEmailMes {
+    color: green;
+}
+
+#wrongEmailMes {
+    color: red;
+}
+
+#tmmbrs {
+    height: 100px;
+    width: 200px;
+    border: solid;
+}

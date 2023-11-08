@@ -1,0 +1,13 @@
+USE CUSTOMER_DB;
+
+DROP PROCEDURE IF EXISTS get_cust_details;
+
+DELIMITER &&
+CREATE PROCEDURE get_cust_details(IN pay_amt INTEGER)
+BEGIN
+	SELECT CUST_NAME, CUST_CITY FROM customer WHERE PAYMENT_AMT > pay_amt;
+END &&
+DELIMITER ;
+
+CALL get_cust_details(5000);
+
